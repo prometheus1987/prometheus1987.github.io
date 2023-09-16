@@ -26,7 +26,7 @@ var currentSelectId = -1;
 
 var orbitMvMat = mat4.create();
 
-var orbitWorker = new Worker('/scripts/orbit-calculation-worker.js');
+var orbitWorker = new Worker('../scripts/orbit-calculation-worker.js');
 
 var initialized = false;
 
