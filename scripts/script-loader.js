@@ -1181,7 +1181,7 @@ window.sun = {
     dotShader.uCamMatrix = gl.getUniformLocation(dotShader, 'uCamMatrix');
     dotShader.uPMatrix = gl.getUniformLocation(dotShader, 'uPMatrix');
 
-    $.get('data/TLE.json?fakeparameter=to_avoid_browser_cache2', function(resp) {
+    $.get('TLE.json?fakeparameter=to_avoid_browser_cache2', function(resp) {
       var startTime = new Date().getTime();
 
 
