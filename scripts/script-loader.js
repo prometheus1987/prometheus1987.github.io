@@ -830,7 +830,7 @@ earth.init = function() {
     nightLoaded = true;
     onImageLoaded();
   };
-  nightImg.src = '/nightearth-4096.png';
+  nightImg.src = 'images/nightearth-4096.png';
  // nightImg.src = '/nightearth-512.jpg';
 
   //generate a uvsphere bottom up, CCW order
