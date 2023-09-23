@@ -73,7 +73,7 @@ earth.init = function() {
     texLoaded = true;
     onImageLoaded();
   };
-  img.src = '/mercator-text.jpg';
+  img.src = '../images/mercator-tex.jpg';
 //  img.src = '/mercator-tex-512.jpg';
   
   nightTexture = gl.createTexture();
